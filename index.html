@@ -4,22 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>HTML Audio and Video Lab</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2">
   <link rel="icon" href="images/favicon.png">
 </head>
-<body>
+<body class="hero">
     <h1>Paulo Londra</h1>
-    <section class="contenedor">
-        <h2>Paulo Londra - Plan A (Offical Video)</h2>
-        <video controls>
-            <source src="video/plan-a-h264.mp4" type="video/mp4">
-        </video>
-    </section>
-    <section class="contenedor">
-        <h2>Paulo Londra - Necio (feat. LIT killah)</h2>
-        <audio controls loop>
-            <source src="video/necio.mp3" type="audio/mpeg">
-        </audio>
+    <section id="proyectos" class="container">
+        <div class="card">
+            <h2>Paulo Londra - Plan A (Offical Video)</h2>
+            <video controls class="video-paulo">
+                <source src="video/plan-a-h264.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="card">
+            <h2>Paulo Londra - Necio (feat. LIT killah)</h2>
+            <audio controls loop>
+                <source src="video/necio.mp3" type="audio/mpeg">
+            </audio>
+        </div>
     </section>
     <p class="copyright">
         <img src="images/Copyright.png" alt="Logo FT">
