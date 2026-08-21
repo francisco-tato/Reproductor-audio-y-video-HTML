@@ -1,0 +1,1 @@
+This project focuses on audio and video playback using HTML elements. It presents multimedia content in a clean and functional interface, demonstrating how audiovisual resources can be integrated into a web page. The exercise aims to strengthen content structure and user experience in web applications.
